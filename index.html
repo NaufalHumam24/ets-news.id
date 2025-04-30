@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News.id - Portal Berita</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="top-navbar">
+      <div class="container">
+        <h1 class="logo">News.id</h1>
+    
+        <div class="right-section">
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Cari topik atau kategori" />
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+          </div>          
+    
+          <div class="user-icons">
+            <a href="#" title="Profil" class="user-icon">
+              <i class="fas fa-user-circle"></i>
+            </a>
+          </div>          
+        </div>
+      </div>
+    </div>    
+
+    <nav class="bottom-navbar">
+      <div class="container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nasional.html">Nasional</a></li>
+          <li><a href="internasional.html">Internasional</a></li>
+          <li><a href="ekonomi.html">Ekonomi</a></li>
+          <li><a href="olahraga.html">Olahraga</a></li>
+          <li><a href="teknologi.html">Teknologi</a></li>
+          <li><a href="hiburan.html">Hiburan</a></li>
+        </ul>
+      </div>
+    </nav>    
+  </header>
+
+  <main id="home" class="home-box">
+    <div class="home-grid">
+      <!-- Main Berita -->
+      <div class="main-news">
+        <a href="nasional.html" class="headline-link">
+          <div class="headline-news">
+            <img src="image/nasional.jpg" alt="Headline" />
+            <div class="headline-label">Headline</div>
+            <h2 class="headline-title">Sempat Mangkir, 2 Anggota DPR Kembali Dipanggil KPK di Kasus CSR BI</h2>
+          </div>
+        </a>
+  
+        <div class="sub-news-list">
+          <a href="internasional.html" class="sub-news-link">
+            <div class="sub-news-item">
+              <img src="image/internasional.jpeg" alt="News 1" />
+              <p class="sub-news-title">Kim Jong Un Perintahkan AL Korut Pakai Senjata Nuklir di Kapal Perang</p>
+            </div>
+          </a>
+          <a href="ekonomi.html" class="sub-news-link">
+            <div class="sub-news-item">
+              <img src="image/ekonomi.jpeg" alt="News 2" />
+              <p class="sub-news-title">Harga Minyak Turun di Tengah Was-was Perang Dagang dan Permintaan</p>
+            </div>
+          </a>
+          <a href="olahraga.html" class="sub-news-link">
+            <div class="sub-news-item">
+              <img src="image/olahraga.jpeg" alt="News 3" />
+              <p class="sub-news-title">Barcelona vs Inter: Lamine Yamal Bisa Lebih Jago Ketimbang Messi</p>
+            </div>
+          </a>
+        </div>
+      </div>
+  
+      <div class="sidebar-popular">
+        <h3 class="popular-title">TERPOPULER</h3>
+  
+        <div class="popular-item">
+          <div class="popular-number">1</div>
+          <div class="popular-content">
+            <a href="teknologi.html" class="popular-headline-link">
+              <p class="popular-headline">Meta AI Kini Punya Aplikasi Mandiri, Siap Tantang ChatGPT dan Gemini</p>
+            </a>
+            <span class="popular-category">Teknologi</span>
+          </div>
+        </div>
+  
+        <div class="popular-item">
+          <div class="popular-number">2</div>
+          <div class="popular-content">
+            <a href="hiburan.html" class="popular-headline-link">
+              <p class="popular-headline">Sinopsis Thunderbolts*, Misi Berbahaya Geng Antihero Pertama MCU</p>
+            </a>
+            <span class="popular-category">Hiburan</span>
+          </div>
+        </div>
+  
+        <div class="popular-item">
+          <div class="popular-number">3</div>
+          <div class="popular-content">
+            <a href="internasional.html" class="popular-headline-link">
+              <p class="popular-headline">Kim Jong Un Perintahkan AL Korut Pakai Senjata Nuklir di Kapal Perang</p>
+            </a>
+            <span class="popular-category">Internasional</span>
+          </div>
+        </div>
+  
+        <div class="popular-item">
+          <div class="popular-number">4</div>
+          <div class="popular-content">
+            <a href="olahraga.html" class="popular-headline-link">
+              <p class="popular-headline">Barcelona vs Inter: Lamine Yamal Bisa Lebih Jago Ketimbang Messi</p>
+            </a>
+            <span class="popular-category">Olahraga</span>
+          </div>
+        </div>
+  
+        <div class="popular-item">
+          <div class="popular-number">5</div>
+          <div class="popular-content">
+            <a href="nasional.html" class="popular-headline-link">
+              <p class="popular-headline">Sempat Mangkir, 2 Anggota DPR Kembali Dipanggil KPK di Kasus CSR BI</p>
+            </a>
+            <span class="popular-category">Nasional</span>
+          </div>
+        </div>
+  
+        <div class="popular-item">
+          <div class="popular-number">6</div>
+          <div class="popular-content">
+            <a href="ekonomi.html" class="popular-headline-link">
+              <p class="popular-headline">Harga Minyak Turun di Tengah Was-was Perang Dagang dan Permintaan</p>
+            </a>
+            <span class="popular-category">Ekonomi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>  
+
+  <section class="news-container">
+    <div class="news-header">
+      <h2>TERBARU</h2>
+    </div>
+
+    <article class="berita-item">
+      <img src="image/teknologi.webp" alt="Thumbnail">
+      <div class="berita-content">
+        <a href="teknologi.html" class="berita-judul">Meta AI Kini Punya Aplikasi Mandiri, Siap Tantang ChatGPT dan Gemini</a>
+        <div class="berita-kategori">Teknologi</div>
+      </div>
+    </article>
+    
+    <article class="berita-item">
+      <img src="image/hiburan.jpeg" alt="Thumbnail">
+      <div class="berita-content">
+        <a href="hiburan.html" class="berita-judul">Sinopsis Thunderbolts*, Misi Berbahaya Geng Antihero Pertama MCU</a>
+        <div class="berita-kategori">Hiburan</div>
+      </div>
+    </article>
+    
+    <article class="berita-item">
+      <img src="image/internasional.jpeg" alt="Thumbnail">
+      <div class="berita-content">
+        <a href="internasional.html" class="berita-judul">Kim Jong Un Perintahkan AL Korut Pakai Senjata Nuklir di Kapal Perang</a>
+        <div class="berita-kategori">Internasional</div>
+      </div>
+    </article>
+    
+    <article class="berita-item">
+      <img src="image/olahraga.jpeg" alt="Thumbnail">
+      <div class="berita-content">
+        <a href="olahraga.html" class="berita-judul">Barcelona vs Inter: Lamine Yamal Bisa Lebih Jago Ketimbang Messi</a>
+        <div class="berita-kategori">Olahraga</div>
+      </div>
+    </article>
+
+    <article class="berita-item">
+      <img src="image/ekonomi.jpeg" alt="Thumbnail">
+      <div class="berita-content">
+        <a href="ekonomi.html" class="berita-judul">Harga Minyak Turun di Tengah Was-was Perang Dagang dan Permintaan</a>
+        <div class="berita-kategori">Ekonomi</div>
+      </div>
+    </article>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <h2 class="logo">News.id</h2>
+      </div>
+  
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>TELUSURI</h3>
+          <ul class="footer-grid">
+            <li><a href="nasional.html">Nasional</a></li>
+            <li><a href="ekonomi.html">Ekonomi</a></li>
+            <li><a href="teknologi.html">Teknologi</a></li>
+            <li><a href="internasional.html">Internasional</a></li>
+            <li><a href="olahraga.html">Olahraga</a></li>
+            <li><a href="hiburan.html">Hiburan</a></li>
+          </ul>
+        </div>
+      </div>      
+  
+      <div class="footer-social">
+        <h3>IKUTI KAMI</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/naufal.humam24" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/_nhm24" class="twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/_nhm.24/" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>      
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 News.id. Logo dan semua elemen terkait adalah milik News.id.</p>
+      <p>Tentang Kami | Redaksi | Pedoman Media Siber | Karir | Disclaimer</p>
+    </div>
+  </footer>  
+
+  <script src="script.js"></script>
+</body>
+</html>
